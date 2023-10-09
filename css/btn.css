@@ -1,0 +1,22 @@
+.btn,
+button {
+  padding: 24px;
+  display: inline-block;
+  border: 2px solid gray;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+#carrito span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#carrito {
+  position: relative;
+}
+

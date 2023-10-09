@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi carrito ArtZeti</title>
+     <!--google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- boostrans icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Mi estilo-->  
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/card.css">
+    <link rel="stylesheet" href="../css/btn.css">
 </head>
 <body>
     <header>
@@ -11,30 +21,35 @@
         <h3>Joyeria Artesanal ArtZeti</h3>
         
     
-        <a href=""><href="carrito.html">carrito<aspan>1</aspan>
-        </a>
-      
-        <a href="forma_de_pago.html">Forma de pago</a>
+        <a href="carrito.html" class="btn"><i class="bi bi-cart"></i>carrito</a>
+        <i class="bi bi-arrow-right-circle"></i>
+        <a href="forma_de_pago.html" class="btn"> <i class="bi bi-cart"></i>Forma de pago</a>
+        <i class="bi bi-arrow-right-circle"></i>
+        <a href="finalizar_pedido.html" class="btn"> <i class="bi bi-cart"></i>Finalizar compra</a>
         
-        <a href="finalizarpedido.html ">Finalizar pedido</a>
+        
     
       </header>
-      <main>
+      <main > 
         <h1>Mi carrito</h1>
-      <a href="index.html">Seguir comprando</a>
+      <a href="index.html"class="btn"><i class="bi bi-cart"></i>Seguir comprando</a>
+      
+
       </main>
       <section>
-       <div>
-        <div>
+       <div class="wrap">
+         
+        <div class="card">
           
          <img src="../imagenes/colmillo zul.avif" alt="Colgante colmillo" width="20%">
          <h4>colgante de colmillo con cordon de cuero
          con diferentes colores azules</h4>
-         <h4>35€</h4>
+         <h4>35<i class="bi bi-currency-euro m-color m-color"></h4>
          <button><img src="" alt=""></button>
         </div>
         <br>
-        <div>
+
+        <div class="card">
          
           <img src="../imagenes/esfera.webp" alt="Colgante esfera" width="20%">
          <h4>colgante de colmillo con cordon de cuero <br>
@@ -51,26 +66,27 @@
      <button type="submit">Proceder al pago</button>
      </div>
      <br />
-     <div>
-      <h3>Otros usuarios tambien compraron</h3>
-     </div>
+
        <div>
         <div class="card">
+          <h3>Otros usuarios tambien compraron</h3>
           <img
             src="../imagenes/colgante de resina y plata.avif"
             alt="Colgante playa "
             width="20%"/>
           <div>
             <h4>colgante playa</h4>
-            <h4>40€</h4>
+            <h4>40<i class="bi bi-currency-euro m-color m-color"></i></h4>
           </div>
           
         </div>
   
-           <p>Colgante de plata de Ley con resina epoxi de distintos motivos de mar, el cordon tambien es de plata</p>
+           
           <div>
+            <p>Colgante de plata de Ley con resina epoxi de distintos motivos de mar, el cordon tambien es de plata</p>
             <a href="carrito.html">Añadir a mi carrito</a>
             <a href="detalle_producto.html">Ver</a>
+          
           </div>
 
           <div>
@@ -117,7 +133,7 @@
               nuetras Newsletter y recibe nuestras ofertas</h2>
             <form >
                 <input type="email" name="email" id="Email" placeholder="introduce tu email" />
-                <button type="submit">Suscribirme</button>
+                <button class="btn-block">Suscribirme</button>
             </form>
              </div>
            <div>

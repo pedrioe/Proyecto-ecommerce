@@ -1,0 +1,24 @@
+.valoracion {
+  color: #cacaca;
+}
+
+.contenido {
+  padding: 24px;
+}
+
+.card {
+  border: 2px solid gray;
+  border-radius: 10px 10px 8px 8px;
+}
+
+.contenido div,
+.contenido p {
+  margin-bottom: 24px;
+}
+
+.card img {
+  max-width: 100%;
+}
+.espcio-despues {
+  margin-right: 10px;
+}

@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos Artzeti</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+   <!-- boostrans icons-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <!-- Mi estilo-->  
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/card.css">
+   <link rel="stylesheet" href="../css/btn.css">
+
   </head>
   <body>
     
@@ -17,14 +27,15 @@
         id="buscador"
         placeholder="Busca tu producto"
       />
-      <a href="carrito.html">carrito<aspan>1</aspan></a>
+      <a href="carrito.html" class="btn" id="carrito"> carrito<span>1</span></a>
     </header>
     <nav>
       <ul>
-        <li><a href="index.html" target="_blank">Productos</a></li>
-        <li><a href="nosotros.html" target="_blank">Sobre nosotros</a</li>
-        <li><a href="contacto.html" target="-blank">Contacto</a></li>
+        <li><a href="index.html" target="_blank" class="wrap">Productos</a></li>
+        <li><a href="nosotros.html" target="_blank" class="wrap">Sobre nosotros</a</li>
+        <li><a href="contacto.html" target="-blank" class="wrap">Contacto</a></li>
         <li><a href="ofertas.html" target="_blank">Ofertas</a></li>
+        
       </ul>
     </nav>
     <main>
@@ -32,110 +43,137 @@
       <h4>Consigue ahora nuestros productos de ArtZeti</h4>
       
 
-         <a href="ofertas.html" target="_blank">consigue nuetras mejores ofertas</a>
-         <br>
+       <a href="ofertas.html" target="_blank">consigue nuetras mejores ofertas</a>
+     <div class="contenido">  
 
-
+     <div class="wrap" class="card-home">
+       <div class="card">
+        <img
+          src="../imagenes/colmillo zul.avif"
+          alt="colgante azul"
+          width="20%"/>
+  
+        <div class="contenido">
+          <div>
+            <h4>Colgante Colmillo</h4>
+            <h4>35<i class="bi bi-currency-euro"></i></h4>
+          </div>
+  
+          <div class="valoracion">
+              <span class="m-color">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+               </span>
+          </div>
+  
+           <p>Colgante de madera y resina</p>
+  
+            <div>
+              <button class="btn-block">Añadir al carrito</button>
+             <a class="btn" href="detalle_colmillo.html">Ver</a>
+            </div>
+        </div>
+      </div>
       <div class="card">
         <img
           src="../imagenes/colmillo zul.avif"
           alt="colgante azul"
           width="20%"/>
-        <div>
-          <h4>Colgante Colmillo</h4>
-          <h4>35€</h4>
+  
+        <div class="contenido">
+          <div>
+            <h4>Colgante Colmillo</h4>
+            <h4>35<i class="bi bi-currency-euro"></i></h4>
+          </div>
+  
+          <div class="valoracion">
+              <span class="m-color">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+               </span>
+          </div>
+  
+           <p>Colgante de madera y resina</p>
+  
+            <div>
+              <button class="btn-block">Añadir al carrito</button>
+             <a class="btn" href="detalle_colmillo.html">Ver</a>
+            </div>
         </div>
-        <div class="valoracion">
-          <span class="m-color">★★★★
-          </span>★
-        </div>
-          <p>Colgante de madera y resina</p>
-        <div>
-          <a href="carrito.html">Añadir a mi carrito</a>
-          <a href="detalle_colmillo.html">Ver</a>
-        </div>
-         <br />
-      </div>
-       <div class="card">
-         <img
-          src="../imagenes/colgante-de-resina.webp"
-          alt="colgante Lagrima"
-          width="20%"/>
-       <div>
-          <h4>Colgante Naturaleza</h4>
-          <h4>35€</h4>
-        </div>
-        <div class="valoracion">
-          <span class="m-color">★★★★
-        </span>★
-       </div>
-      
-
-        
-        <p>Colgante de madera y resina</p>
-        <div>
-          <a href="carrito.html">Añadir a mi carrito</a>
-          <a href="detalle_naturaleza.html">Ver</a>
-        </div>
-        <br />
-
-       </div>
-       <div class="card">
-        <img
-          src="../imagenes/esfera.webp"
-          alt="Colgante "
-          width="20%"/>
-        <div>
-        
-          <h4>Colgante Esfera</h4>
-          <h4>40€</h4>
-        </div>
-        <div class="valoracion">
-          <span class="m-color">★★★★
-        </span>★
-      </div>
-
-         <p>Colgante de flores y resina</p>
-        <div>
-          <a href="carrito.html">Añadir a mi carrito</a>
-          <a href="detalle_esfera.html">Ver</a>
-        </div>
-        <br />
-
-        
-        
       </div>
       <div class="card">
         <img
-          src="../imagenes/colgante de resina y plata.avif"
+          src="../imagenes/colmillo zul.avif"
           alt="colgante azul"
           width="20%"/>
-        <div>
-          <h4>Colgante Playa</h4>
-          <h4>60€</h4>
+  
+        <div class="contenido">
+          <div>
+            <h4>Colgante Colmillo</h4>
+            <h4>35<i class="bi bi-currency-euro"></i></h4>
+          </div>
+  
+          <div class="valoracion">
+              <span class="m-color">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+               </span>
+          </div>
+  
+           <p>Colgante de madera y resina</p>
+  
+            <div>
+              <button class="btn-block">Añadir al carrito</button>
+             <a class="btn" href="detalle_colmillo.html">Ver</a>
+            </div>
         </div>
-        <div class="valoracion">
-          <span class="m-color">★★★★
-        </span>★
-       </div>
-
-         <p>Cogante de plata y resina. </p>
-        <div>
-          <a href="carrito.html">Añadir a mi carrito</a>
-          <a href="detalle_playa.html">Ver</a>
-        </div>
-        <br />
-        
-        
       </div>
-
-      <div>
-        <div>
+      <div class="card">
+        <img
+          src="../imagenes/colmillo zul.avif"
+          alt="colgante azul"
+          width="20%"/>
+  
+        <div class="contenido">
+          <div>
+            <h4>Colgante Colmillo</h4>
+            <h4>35<i class="bi bi-currency-euro"></i></h4>
+          </div>
+  
+          <div class="valoracion">
+              <span class="m-color">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+               </span>
+          </div>
+  
+           <p>Colgante de madera y resina</p>
+  
+            <div>
+              <button class="btn-block">Añadir al carrito</button>
+             <a class="btn" href="detalle_colmillo.html">Ver</a>
+            </div>
+        </div>
+      </div>
+     </div> 
+         
             <h3>Testimonos de clientes</h3>
-            <h4>Consigue los mejores prductos de <br>
+            <h4>Consigue los mejores prductos de 
             ArtZeti</h4>
             <button type="submit">Ver todos</button>
-         </div>
+        </div>
          <section>
             <div>
               <img src="" alt="" />
